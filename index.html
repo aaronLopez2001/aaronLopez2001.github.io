@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--HEAD-->
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <meta charset="utf-8">
+        <title>Jendrix Aaron Lopez</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css">
+        <script src="./JS/index.js"></script>
+    </head>
+
+
+    <!--BODY-->
+    <body class="Background">
+
+        <!--NAv BAR-->
+        <div class="Navbar">
+            <a class="active" href="#HOME">HOME</a>
+            <a href="#ABOUT">ABOUT</a>
+            <a href="#GITHUB">GITHUB</a>
+            <a href="#CONTACT" onclick="openForm()" ondblclick="closeForm()">CONTACT</a> 
+        </div>
+
+        <!--BR-->
+
+        <br>
+        <br>
+
+        <!--BACKGROUND VIDEO-->
+        <div id="HOME">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./Video/traffic_-_1042 (Original).mp4" type="video/mp4"> 
+                Your browser does not support HTML5 video!
+            </video>
+        </div>
+
+        <!--VIDEO TEXT-->
+        <div class="Video_Text">
+            <h1 class="white-text">My First Website</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br>-Joseph Weizenbaum
+                    <br>
+                    <br>My name is Aaron Lopez. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+        <!--SlideShow-->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+
+                    </div>
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/image-blog-future-software-development.png" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a student studying sofware development<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/tumblr_ef6dbdd75666e5b15aaadc30799a7269_07bc3472_540.jpg" alt="driving at night">
+                        <div class="text">I like driving at night!,</div>
+                    </div>
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/4206447978_1cf4b79158_c.jpg" alt="City of Dasmariñas">
+                        <div class="text">I was born in Dasmariñas Cavite </div>
+                    </div>
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/shotokanaadb5d8470cb902139ab838d19d8ef8c.jpg" alt="Shotokan Logo"> 
+                        <div class="text">I've trained shotokan when I was little</div>
+                    </div>
+                    <br>
+                    <!--Slideshow dot-->
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+
+                    <!--Previous and next buttons-->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--About Section-->
+        <div class="Row" id="ABOUT">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./Images/pexels-krivec-ales-554609.jpg" alt="A picture of a hiker">
+            </div>
+
+            
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    My name is Jendrix Aaron N. Lopez, I am 20 years old studying to become a web/software developer, I enjoy my own company
+                    as well as being with friends & family, I like to code, hike, play video games, night drive, and martial arts.
+
+                    <br>
+                    I was born in the Philippines, 16 years later I came here in Canada in hopes of having a better life,
+                    being around computer fascinated me when I was still in elementary, it blows my mind just to think how can humans come from hunting and 
+                    gathering to building complex machines, and how they can communicate in a seconds with just a press of a buttons, but I believe that
+                    we should not abandon the people arund us, computer is a double edged sword where we humans must learn how to use it and not abuse it,
+                    if we spend too much time on our computer we forget the people around us. 
+                    <br>
+                 
+                </p>
+            </div>
+        </div>
+
+        <!--GITHUB section-->
+        <div class="Row" id="GITHUB">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/aaronLopez2001" target="_blank">My GitHub</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/aaronLopez2001" target="_blank"><img src="./Images/Octocat.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">Contact</button>
+            <div class="form-popup" id="myForm">
+            <div class="Column_2">
+                <img src="./Images/contact-us-icon.jpg.crdownload" alt="Contact images">
+            </div>
+            <!--Contact image, left column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="" method="post">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here" required>
+                    <label>Email:</label>
+                        <input type="text" id="Email"  placeholder="Please enter your email here"required>
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+            </div>
+        </div>
+        <!--FOOTER section-->
+        <footer>
+            <p>
+                <p class="center">&copy; Prosper Consulting Inc.,<a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
